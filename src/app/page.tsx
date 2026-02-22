@@ -59,7 +59,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* Phone / mock panel */}
+          {/* Phone / mock panel. Replace this panel with real screenshots or animated UI */}
           <div className="flex items-center justify-center">
             <div className="w-full max-w-md rounded-3xl border border-slate-200 bg-slate-50 p-6">
               <div className="flex items-center justify-between">
@@ -80,7 +80,7 @@ export default function HomePage() {
               </div>
 
               <p className="mt-4 text-xs text-slate-600">
-                Replace this panel with real screenshots when ready.
+                
               </p>
             </div>
           </div>
