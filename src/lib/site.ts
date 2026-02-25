@@ -16,8 +16,8 @@ export const SITE = {
   },
 
   phones: {
-    ng: "+234 703 492 2535",
-    ca: "+1 (226) 507-9301",
+    ng: "+234 70",
+    ca: "+1 ",
   },
 
   addresses: {

@@ -87,7 +87,7 @@ export default function PrivacyPage() {
           <Section id="controller" title="2. Data Controller Information">
             <p className="font-semibold">Data Controller</p>
             <p className="text-slate-700">
-              {SITE.legalName} is the Data Controller responsible for determining the purposes and means of processing personal data collected through the {SITE.appName} mobile application (“{SITE.appName}”) and the {SITE.brand} website. We process personal data in accordance with applicable data protection laws, including the Nigeria Data Protection Act (NDPA) and, where applicable, the General Data Protection Regulation (GDPR). {SITE.legalName} is a duly registered company ({SITE.RCNumber}) with its registered address at {SITE.addresses.registered}. For any inquiries relating to this Privacy Policy or the processing of personal data, you may contact us by email at {SITE.emails.support} or by telephone at {SITE.phones.ng} or {SITE.phones.ca}.
+              {SITE.legalName} is the Data Controller responsible for determining the purposes and means of processing personal data collected through the {SITE.appName} mobile application (“{SITE.appName}”) and the {SITE.brand} website. We process personal data in accordance with applicable data protection laws, including the Nigeria Data Protection Act (NDPA) and, where applicable, the General Data Protection Regulation (GDPR). {SITE.legalName} is a duly registered company ({SITE.RCNumber}) with its registered address at {SITE.addresses.registered}. For any inquiries relating to this Privacy Policy or the processing of personal data, you may contact us by email at {SITE.emails.support}.
 
               {SITE.legalName} remains responsible for ensuring that personal data is processed lawfully, securely, and transparently, including where trusted third-party service providers are used.
 
@@ -281,8 +281,6 @@ export default function PrivacyPage() {
             </p>
             <p className="mt-3 text-slate-700">
               Email: <span className="font-medium">{SITE.emails.support}</span>
-              <br />
-              Phone: {SITE.phones.ng} | {SITE.phones.ca}
             </p>
           </Section>
         </div>

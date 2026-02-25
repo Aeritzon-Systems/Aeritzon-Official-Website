@@ -120,7 +120,7 @@ export default function TermsPage() {
 
         <Section title="13. Contact">
           <p>
-            Aeritzon Ltd is located at Lane 1, Alapo Quarters, Ido Ekiti, Ekiti State, Federal Republic of Nigeria. For general inquiries, customer support, or formal correspondence, you may contact us by email at support@aeritzon.com or by telephone at +234 703 492 2535 or +1 (226) 507-9301. We strive to respond to all inquiries in a timely manner, but response times may vary based on the nature of the inquiry and our operational capacity. For urgent matters related to safety or emergencies, please contact your local emergency services directly using the appropriate official emergency number available in your jurisdiction. Aeritzon does not provide emergency response services and cannot guarantee immediate assistance through email or phone communication.
+            Aeritzon Ltd is located at Lane 1, Alapo Quarters, Ido Ekiti, Ekiti State, Federal Republic of Nigeria. For general inquiries, customer support, or formal correspondence, you may contact us by email at support@aeritzon.com. We strive to respond to all inquiries in a timely manner, but response times may vary based on the nature of the inquiry and our operational capacity. For urgent matters related to safety or emergencies, please contact your local emergency services directly using the appropriate official emergency number available in your jurisdiction. Aeritzon does not provide emergency response services and cannot guarantee immediate assistance through email.
           </p>
         </Section>
 
