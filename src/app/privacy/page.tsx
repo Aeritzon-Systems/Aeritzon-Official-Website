@@ -70,17 +70,16 @@ export default function PrivacyPage() {
           </header>
 
           <p className="mt-5 leading-7 text-slate-700">
-            {SITE.legalName} (“{SITE.appName}”, “we”, “us”, or “our”) respects your privacy
+            {SITE.legalName} (“{SITE.brand}”, “we”, “us”, or “our”) respects your privacy
             and is committed to protecting personal data. This Privacy Policy
             explains how we collect, use, share, store, and protect information
             when you use the {SITE.appName} mobile application (“{SITE.appName}”) and our
-            website at{" "}
-            <span className="font-medium text-slate-900">{SITE.websiteDomain}</span>.
+            website at {SITE.websiteDomain}.
           </p>
 
           <Section id="introduction" title="1. Introduction">
             <p>
-              {SITE.appName} is a Smart Automated Rescue Assistant developed to enhance personal safety and support emergency coordination in real-time situations. The platform is designed to help users quickly communicate distress signals, share relevant information with trusted contacts, and facilitate timely response during high-risk or urgent events. By accessing or using the {SITE.appName} mobile application or our website, you acknowledge that certain personal information may be collected, used, stored, and processed in accordance with this Privacy Policy and applicable data protection laws. Your continued use of the platform signifies your understanding of, and agreement to, the practices described herein. This Privacy Policy is provided to promote transparency regarding how we handle personal data. It does not constitute legal advice and should not be interpreted as such. If you have questions about your rights, your obligations, or how this Policy applies to your specific circumstances, we encourage you to contact us directly or seek independent legal guidance where appropriate.
+              {SITE.appName} is developed to enhance personal safety and support emergency coordination in real-time situations. The platform is designed to help users quickly communicate distress signals, share relevant information with trusted contacts, and facilitate timely response during high-risk or urgent events. By accessing or using the {SITE.appName} mobile application or our website, you acknowledge that certain personal information may be collected, used, stored, and processed in accordance with this Privacy Policy and applicable data protection laws. Your continued use of the platform signifies your understanding of, and agreement to, the practices described herein. This Privacy Policy is provided to promote transparency regarding how we handle personal data. It does not constitute legal advice and should not be interpreted as such. If you have questions about your rights, your obligations, or how this Policy applies to your specific circumstances, we encourage you to contact us directly or seek independent legal guidance where appropriate.
             </p>
           </Section>
 
@@ -138,7 +137,7 @@ export default function PrivacyPage() {
 
               The technical data collected may include information such as your device model, operating system version, network-related information (including IP address), app usage events for non-advertising analytics purposes, unique app instance identifiers, as well as crash reports and performance diagnostics. This data helps us understand how the application performs under real-world conditions, identify technical issues, improve stability, and enhance overall service quality.
 
-              We use this information solely for operational, security, and performance-related purposes. It is not used for advertising, behavioral profiling, cross-app tracking, or personalized marketing. Any analytics collected are intended to support system integrity, reliability, and user experience—not to build advertising profiles or track users for commercial targeting.
+              We use this information solely for operational, security, and performance-related purposes. It is not used for advertising, behavioral profiling, cross-app tracking, or personalized marketing. Any analytics collected are intended to support system integrity, reliability, and user experience, not to build advertising profiles or track users for commercial targeting.
             </p>
 
             <h3 className="mt-6 text-lg font-semibold">D. Information we do not collect</h3>
@@ -277,10 +276,7 @@ export default function PrivacyPage() {
 
           <Section id="contact" title="17. Contact">
             <p>
-              If you have questions about this Privacy Policy, contact us:
-            </p>
-            <p className="mt-3 text-slate-700">
-              Email: <span className="font-medium">{SITE.emails.support}</span>
+              If you have any questions, concerns, or requests regarding this Privacy Policy or our data handling practices, please contact us at {SITE.emails.support}. We are committed to responding to all inquiries promptly and transparently. By contacting us, you may also request clarification on how your information is collected, used, stored, or protected within our services.
             </p>
           </Section>
         </div>

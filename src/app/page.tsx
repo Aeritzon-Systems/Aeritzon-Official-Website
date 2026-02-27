@@ -234,7 +234,7 @@ export default function HomePage() {
 
           <p className="mt-4 max-w-3xl text-slate-700 leading-7">
             Aeritzon builds technology for safety, resilience, and decision systems in
-            high-stakes environments. <span className="font-semibold text-slate-900">Sara is our first product.</span>
+            high-stakes environments.
           </p>
         </div>
       </section>

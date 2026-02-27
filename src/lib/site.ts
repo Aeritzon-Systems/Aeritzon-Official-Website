@@ -16,8 +16,8 @@ export const SITE = {
   },
 
   phones: {
-    ng: "+234 70",
-    ca: "+1 ",
+    ng: "",
+    ca: "",
   },
 
   addresses: {
