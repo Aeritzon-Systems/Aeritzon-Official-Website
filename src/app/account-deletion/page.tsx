@@ -33,21 +33,21 @@ export default function AccountDeletionPage() {
 
         <section>
           <h2 className="text-xl font-semibold">Request deletion by email</h2>
-            <p className="text-slate-700">
-              If you cannot access the app, you may request deletion by emailing{" "}
-              <a
-                href={`mailto:${SITE.emails.support}?subject=Delete%20My%20Sara%20Account`}
-                className="font-medium text-slate-900 underline underline-offset-4"
-              >
-                {SITE.emails.support}
-              </a>
-              .
-            </p>
+          <p className="text-slate-700">
+            If you cannot access the app, you may request deletion by emailing{" "}
+            <a
+              href={`mailto:${SITE.emails.support}?subject=Delete%20My%20Sara%20Account`}
+              className="font-medium text-slate-900 underline underline-offset-4"
+            >
+              {SITE.emails.support}
+            </a>
+            .
+          </p>
 
-            <ol className="mt-4 list-decimal space-y-2 pl-6 text-slate-700">
-              <li>Use the subject: &quot;Delete My Sara Account&quot;</li>
-              <li>Include the email used to register</li>
-            </ol>
+          <ol className="mt-4 list-decimal space-y-2 pl-6 text-slate-700">
+            <li>Use the subject: &quot;Delete My Sara Account&quot;</li>
+            <li>Include the email used to register</li>
+          </ol>
         </section>
 
         <section>
@@ -57,6 +57,15 @@ export default function AccountDeletionPage() {
               <li>Emergency contacts</li>
               <li>Activity data</li>
             </ul>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold">Additional data controls</h2>
+          <p className="text-slate-700">
+            Users may delete certain data without deleting their account, this includes Emergency contacts (can 
+            be added or removed at any time within the app). Other data (such as account information and activity 
+            data) is deleted only when the account is deleted.
+          </p>
         </section>
 
         <section>
