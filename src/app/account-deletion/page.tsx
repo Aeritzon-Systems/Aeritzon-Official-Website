@@ -60,6 +60,15 @@ export default function AccountDeletionPage() {
         </section>
 
         <section>
+          <h2 className="text-xl font-semibold">Additional data controls</h2>
+          <p className="text-slate-700">
+            Users may delete certain data without deleting their account, this includes Emergency contacts (can 
+            be added or removed at any time within the app). Other data (such as account information and activity 
+            data) is deleted only when the account is deleted.
+          </p>
+        </section>
+
+        <section>
           <h2 className="text-xl font-semibold">Retention</h2>
           <p className="mt-4 leading-7 text-slate-700">
             Once deletion is confirmed, data is deleted within{" "}
