@@ -26,6 +26,10 @@ export function SiteFooter() {
           <Link href="/terms" className="text-slate-700 hover:text-slate-900">
             Terms
           </Link>
+          <Link
+            href={SITE.links.accountDeletion} className="text-slate-700 hover:text-slate-900">
+            Account Deletion
+          </Link>
           <a href={SITE.links.contactMailto} className="text-slate-700 hover:text-slate-900">
             Contact
           </a>

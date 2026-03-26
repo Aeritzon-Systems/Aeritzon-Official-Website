@@ -1,3 +1,4 @@
+//src/app/privacy/page.tsx
 import type { Metadata } from "next";
 import React from "react";
 import { SITE } from "@/lib/site";
@@ -210,14 +211,44 @@ export default function PrivacyPage() {
             </p>
           </Section>
 
-          <Section id="rights" title="13. Your Rights">
+          <Section id="rights" title="13. Your Rights">            
             <p>
-              Depending on your jurisdiction and the data protection laws applicable to you, you may be entitled to certain rights in relation to your personal data. These rights may include the right to request access to the personal data we hold about you; to request correction of inaccurate, incomplete, or outdated information; to request deletion of your account and associated personal data, subject to applicable legal or operational retention requirements; and to withdraw consent at any time where processing is based on consent, without affecting the lawfulness of processing carried out prior to withdrawal.
-
-              You may also have the right to request restriction of processing in specific circumstances, to object to certain types of processing where permitted by law, and to lodge a complaint with a competent data protection authority if you believe your rights have been infringed.
-
-              Requests to exercise any applicable data protection rights may be submitted by contacting us at the designated privacy contact email address {SITE.emails.privacy}. We may take reasonable steps to verify your identity before responding to such requests, in order to protect your personal data and ensure compliance with applicable legal requirements. We will respond to valid requests in accordance with applicable data protection laws and within a reasonable timeframe.
+              Depending on your jurisdiction and the data protection laws applicable to
+              you, you may be entitled to certain rights in relation to your personal
+              data. These rights may include the right to request access to the personal
+              data we hold about you; to request correction of inaccurate, incomplete, or
+              outdated information; to request deletion of your account and associated
+              personal data, subject to applicable legal or operational retention
+              requirements; and to withdraw consent at any time where processing is based
+              on consent, without affecting the lawfulness of processing carried out prior
+              to withdrawal.
             </p>
+
+            <p>
+              You may also have the right to request restriction of processing in specific
+              circumstances, to object to certain types of processing where permitted by
+              law, and to lodge a complaint with a competent data protection authority if
+              you believe your rights have been infringed.
+            </p>
+
+            <p>
+              You may delete your account directly within the {SITE.appName} app or visit{" "}
+              <a
+                href={SITE.links.accountDeletion}
+                className="underline underline-offset-4 hover:text-slate-900"
+              >
+                the Account Deletion page
+              </a>{" "}
+              for instructions on deletion by email.
+            </p>
+
+            <p>
+              Requests to exercise any applicable data protection rights may be submitted
+              by contacting us at {SITE.emails.privacy}. We may take reasonable steps to
+              verify your identity before responding, in order to protect your personal
+              data and comply with applicable legal requirements. We will respond to valid
+              requests within a reasonable timeframe.
+            </p>            
           </Section>
 
           <Section id="children" title="14. Children’s Privacy">

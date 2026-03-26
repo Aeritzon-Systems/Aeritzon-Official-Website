@@ -29,6 +29,7 @@ export const SITE = {
     // Put your store link here when ready
     store: process.env.NEXT_PUBLIC_SARA_STORE_URL || "#",
     contactMailto: "mailto:support@aeritzon.com",
+    accountDeletion: "/accountDeletion",
   },
 
   policyDates: {
