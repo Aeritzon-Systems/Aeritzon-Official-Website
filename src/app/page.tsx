@@ -1,5 +1,6 @@
 // app/page.tsx
 import { SITE } from "@/lib/site";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
@@ -60,30 +61,16 @@ export default function HomePage() {
           </div>
 
           {/* mock panel. Replace this panel with real screenshots or animated UI */}
-          <div className="flex items-center justify-center">
-            <div className="w-full max-w-md rounded-3xl border border-slate-200 bg-slate-50 p-6">
-              <div className="flex items-center justify-between">
-                <div className="text-sm font-semibold text-slate-800">{SITE.appName}</div>
-                <div className="text-xs text-slate-600">Live</div>
-              </div>
-
-              <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-4">
-                <div className="text-xs font-medium text-slate-600">Status</div>
-                <div className="mt-1 text-sm font-semibold text-slate-900">
-                  Monitoring enabled
-                </div>
-                <div className="mt-3 h-28 rounded-xl border border-slate-200 bg-slate-50" />
-                <div className="mt-4 flex gap-3">
-                  <div className="h-10 flex-1 rounded-xl bg-slate-900" />
-                  <div className="h-10 w-24 rounded-xl border border-slate-200 bg-white" />
-                </div>
-              </div>
-
-              <p className="mt-4 text-xs text-slate-600">
-                
-              </p>
-            </div>
-          </div>
+          <div className="flex items-center justify-center rounded-3xl bg-slate-100 p-6 md:p-10">
+          <Image
+            src="/saraFeatureBanner.png"
+            alt="Sara app screen showing emergency actions"
+            width={420}
+            height={840}
+            className="h-auto max-h-[640px] w-auto object-contain"
+            priority
+          />
+        </div>
         </div>
       </section>
     );

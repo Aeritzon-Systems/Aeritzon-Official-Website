@@ -32,6 +32,8 @@ export const SITE = {
     accountDeletion: "/account-deletion",
   },
 
+  logoUrl: "/transparentLogo.png",
+
   policyDates: {
     effective: "1 December 2025",
     updated: "13 February 2026",
